@@ -1,0 +1,179 @@
+/*----------Custom Icons----------*/
+
+.cd-form .icon input {
+    padding-left: 54px !important;
+}
+
+.cd-form .m-user {
+    background: url("../img/ic_member_username.svg") no-repeat 16px center;
+}
+
+.cd-form [required].m-user {
+    background: url("../img/ic_member_username.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form .m-pass {
+    background: url("../img/ic_member_username.svg") no-repeat 16px center;
+}
+
+.cd-form [required].m-pass {
+    background: url("../img/ic_member_pass.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form .m-name {
+    background: url("../img/ic_member_name.svg") no-repeat 16px center;
+}
+
+.cd-form [required].m-name {
+    background: url("../img/ic_member_name.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form .m-email {
+    background: url("../img/ic_member_email.svg") no-repeat 16px center;
+}
+
+.cd-form [required].m-email {
+    background: url("../img/ic_member_email.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form .m-balance {
+    background: url("../img/ic_member_balance.svg") no-repeat 16px center;
+}
+
+.cd-form [required].m-balance {
+    background: url("../img/ic_member_balance.svg") no-repeat 16px center, url("../img/ic_required.svg") no-repeat top right;
+}
+
+
+/*----------Custom Icons----------*/
+
+.cd-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cd-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.cd-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cd-form .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.cd-form .form-group input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.cd-form .error-message {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.cd-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cd-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.cd-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cd-form legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cd-form p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-group input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
